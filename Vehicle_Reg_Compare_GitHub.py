@@ -160,7 +160,7 @@ for i in carRegFinalList:
 totalTests=len(resultSetDF.index)
 totalPass=len(resultSetDF[resultSetDF["TEST STATUS"]=="PASS"])
 totalFail=len(resultSetDF[resultSetDF["TEST STATUS"]=="FAIL"])
-print("Total Nuhmber of Tests", totalTests)
+print("Total Number of Tests", totalTests)
 print("Total Number of Test Cases Passed", totalPass)
 print("Total Number of Test Cases Failed", totalFail)
 
